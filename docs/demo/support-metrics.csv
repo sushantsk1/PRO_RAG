@@ -1,0 +1,5 @@
+month,region,tickets,resolved_within_24h,median_resolution_hours
+2026-07,North,120,96,14
+2026-07,South,100,88,12
+2026-08,North,140,112,13
+2026-08,South,110,99,10

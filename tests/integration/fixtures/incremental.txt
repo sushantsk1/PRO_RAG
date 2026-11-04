@@ -1,0 +1,1 @@
+The Lyra retention policy keeps records for 90 days.

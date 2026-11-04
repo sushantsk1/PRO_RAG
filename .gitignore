@@ -1,0 +1,42 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+.ENV
+.ENV.*
+!.env.example
+.agent-team/local.json
+
+# Personal agent team and local host adapters: keep these out of the project repo
+/.agent-team/
+/.agents/
+/.claude/
+/.codex/
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md
+/scripts/team.mjs
+/scripts/lib/
+/scripts/vendor/
+/tests/integration/TEST_PLAN.md
+/nvidia nemotron model usage template.txt
+
+# Local data, uploads, models, and caches
+data/
+storage/
+.cache/
+.npm-cache/
+*.sqlite
+*.sqlite-*
+
+# Dependencies and generated assets
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+coverage/
+
+# Logs and operating system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
